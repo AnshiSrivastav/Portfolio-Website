@@ -19,7 +19,7 @@ $(window).on('scroll',function(){
 // progress bars
 
 var waypoint = new Waypoint({
-  element: document.getElementById('experience'),
+  element: document.getElementById('skills'),
   handler: function() {
 
     var p = document.querySelectorAll('.progress-bar');
